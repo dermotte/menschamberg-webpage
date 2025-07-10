@@ -1,0 +1,38 @@
+/*
+ * Stile für die "Mensch am Berg" Infobox
+ * Farben abgeleitet von AAU CI (Pantone 5405)
+ */
+:root {
+  --aau-dark-blue: #4F6378; /* Angelehnt an Pantone 5405 */
+  --info-box-bg: #f8f9fa;   /* Helles Grau für guten Kontrast */
+}
+
+.info-box-aau {
+  background-color: var(--info-box-bg);
+  border-left: 5px solid var(--aau-dark-blue); /* Akzent-Rand in Uni-Farbe */
+}
+
+.info-box-aau h3 {
+  color: var(--aau-dark-blue);
+  font-weight: 700;
+  margin-bottom: 1.5rem; /* Etwas mehr Abstand nach der Überschrift */
+}
+
+.info-box-aau p {
+  color: #343a40; /* Standard-Textfarbe für gute Lesbarkeit */
+}
+
+.info-box-aau strong {
+  color: #212529; /* Etwas dunklerer Text für die Schlüsselwörter */
+}
+
+.info-box-aau a {
+  color: var(--aau-dark-blue);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.info-box-aau a:hover {
+  color: #000;
+  text-decoration: none;
+}
